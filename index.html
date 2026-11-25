@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Virtual Sport Event 2026</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            DEFAULT: '#0B132B',
+                            light: '#1C2541',
+                            card: '#131C35',
+                            border: '#1E294B'
+                        },
+                        smartblue: {
+                            DEFAULT: '#3A86FF',
+                            hover: '#2563EB',
+                            light: 'rgba(58, 134, 255, 0.12)',
+                            border: 'rgba(58, 134, 255, 0.3)'
+                        },
+                        chartreuse: {
+                            DEFAULT: '#D7FE03',
+                            hover: '#C2E502',
+                            light: 'rgba(215, 254, 3, 0.12)',
+                            border: 'rgba(215, 254, 3, 0.3)'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0B132B;
+            color: #E2E8F0;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0B132B;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1C2541;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3A86FF;
+        }
+        .action-card {
+            transition: all 0.25s ease-in-out;
+        }
+        .action-card:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-chartreuse selection:text-navy">
+
+    <!-- TOP NAV BAR -->
+    <header class="bg-navy-card border-b border-navy-border sticky top-0 z-30 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2.5">
+                <i class="fa-solid fa-flag-checkered text-smartblue text-base sm:text-lg"></i>
+                <h1 class="font-extrabold text-base sm:text-lg tracking-tight text-white flex items-center gap-1.5">
+                    EMERGING <span class="text-chartreuse">VIRTUAL SPORT 2026</span>
+                </h1>                    
+            </div>
+
+            
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow w-full space-y-10">
+
+        <!-- HERO & EVENT DESCRIPTION SECTION -->
+        <section class="bg-navy-card border border-navy-border rounded-2xl p-6 sm:p-10 relative overflow-hidden shadow-xl">
+            <div class="max-w-3xl space-y-4 relative z-10">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-smartblue-light border border-smartblue-border text-smartblue text-xs font-bold uppercase tracking-wider">
+                    <i class="fa-solid fa-heart-pulse text-chartreuse"></i> Healthy Body • Balanced Life
+                </div>
+                
+                <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight leading-tight">
+                    <span class="text-chartreuse">Empowering Wellness and</span> <span class="text-chartreuse">Work-Life Harmony</span> Through Movement
+                </h2>
+
+                <p class="text-sm sm:text-base text-gray-300 leading-relaxed font-normal">
+                    Welcome to the official <strong class="text-chartreuse font-bold">Emerging Virtual Sport Event 2026!</strong> Designed to cultivate health awareness and sustainable fitness habits, this corporate sport campaign invites everyone to balance daily work commitments with active living. Whether you prefer stepping out for a brisk walk, hitting a running groove, or conquering roads on your bicycle—move at your own pace, anytime, anywhere.
+                </p>
+
+                <div class="pt-2 flex flex-wrap gap-4 text-xs font-semibold text-gray-400">
+                    <span class="flex items-center gap-1.5 text-chartreuse"><i class="fa-solid fa-person-walking text-smartblue"></i> 21 KM Walk Goal</span>
+                    <span class="flex items-center gap-1.5 text-chartreuse"><i class="fa-solid fa-person-running text-smartblue"></i> 42 KM Run Goal</span>
+                    <span class="flex items-center gap-1.5 text-chartreuse"><i class="fa-solid fa-person-biking text-smartblue"></i> 100 KM Cycling Goal</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIRTUAL SPORT RULES SECTION -->
+        <section class="space-y-4">
+            <div>
+                <h3 class="text-lg font-extrabold text-white flex items-center gap-2 uppercase tracking-wide">
+                    <i class="fa-solid fa-clipboard-check text-chartreuse text-sm"></i> Virtual Event Guidelines & Rules
+                </h3>
+                <p class="text-xs text-gray-400">Please review the official rules before starting your activities</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-navy-card p-4 rounded-xl border border-navy-border flex items-start space-x-3">
+                    <div class="text-smartblue text-lg pt-0.5"><i class="fa-solid fa-calendar-days"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-chartreuse">Activity Period</h4>
+                        <p class="text-xs text-gray-300 mt-1">Nov 16 – Dec 13, 2026</p>
+                        <p class="text-[11px] text-gray-400 mt-0.5">All activities must be logged within this window.</p>
+                    </div>
+                </div>
+
+                <div class="bg-navy-card p-4 rounded-xl border border-navy-border flex items-start space-x-3">
+                    <div class="text-smartblue text-lg pt-0.5"><i class="fa-brands fa-strava"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-chartreuse">Rule 1: Record Activity</h4>
+                        <p class="text-xs text-gray-300 mt-1">Use Strava App</p>
+                        <p class="text-[11px] text-gray-400 mt-0.5">Record your sport activity sessions using activity recorder (smartwatch, cyclocomp, Strava app) then log to Strava.</p>
+                    </div>
+                </div>
+
+                <div class="bg-navy-card p-4 rounded-xl border border-navy-border flex items-start space-x-3">
+                    <div class="text-smartblue text-lg pt-0.5"><i class="fa-solid fa-users"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-chartreuse">Rule 2: Join Strava Club</h4>
+                        <p class="text-xs text-gray-300 mt-1">Automatic Verification</p>
+                        <p class="text-[11px] text-gray-400 mt-0.5">You must join your corresponding official Strava Club.</p>
+                    </div>
+                </div>
+
+                <div class="bg-navy-card p-4 rounded-xl border border-navy-border flex items-start space-x-3">
+                    <div class="text-smartblue text-lg pt-0.5"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-chartreuse">Rule 3: Play Fair</h4>
+                        <p class="text-xs text-gray-300 mt-1">Fairness First</p>
+                        <p class="text-[11px] text-gray-400 mt-0.5">No motorized assistance, fake GPS, or manual entry manipulation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OFFICIAL STRAVA CLUBS HYPERLINKS SECTION -->
+        <section class="space-y-4">
+            <div>
+                <h3 class="text-lg font-extrabold text-white flex items-center gap-2 uppercase tracking-wide">
+                    <i class="fa-brands fa-strava text-smartblue text-sm"></i> Join Official Strava Clubs
+                </h3>
+                <p class="text-xs text-gray-400">Click below to join your discipline's Strava community for auto-sync</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Walking Club Card -->
+                <a href="https://www.strava.com/clubs/2426652" target="_blank" rel="noopener noreferrer" class="action-card bg-navy-card border border-navy-border hover:border-chartreuse p-5 rounded-xl block group transition-all">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-smartblue-light border border-smartblue-border flex items-center justify-center text-smartblue group-hover:bg-chartreuse group-hover:text-navy transition-colors">
+                                <i class="fa-solid fa-person-walking text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm group-hover:text-chartreuse transition-colors">Emerging Walking Club</h4>
+                                <p class="text-xs text-gray-400">Target: 21.00 KM</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-chartreuse"></i>
+                    </div>
+                </a>
+
+                <!-- Running Club Card -->
+                <a href="https://www.strava.com/clubs/2286430" target="_blank" rel="noopener noreferrer" class="action-card bg-navy-card border border-navy-border hover:border-chartreuse p-5 rounded-xl block group transition-all">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-smartblue-light border border-smartblue-border flex items-center justify-center text-smartblue group-hover:bg-chartreuse group-hover:text-navy transition-colors">
+                                <i class="fa-solid fa-person-running text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm group-hover:text-chartreuse transition-colors">Emerging Running Club</h4>
+                                <p class="text-xs text-gray-400">Target: 42.00 KM</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-chartreuse"></i>
+                    </div>
+                </a>
+
+                <!-- Cycling Club Card -->
+                <a href="https://www.strava.com/clubs/2423145" target="_blank" rel="noopener noreferrer" class="action-card bg-navy-card border border-navy-border hover:border-chartreuse p-5 rounded-xl block group transition-all">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-smartblue-light border border-smartblue-border flex items-center justify-center text-smartblue group-hover:bg-chartreuse group-hover:text-navy transition-colors">
+                                <i class="fa-solid fa-person-biking text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm group-hover:text-chartreuse transition-colors">Emerging Cycling Club</h4>
+                                <p class="text-xs text-gray-400">Target: 100.00 KM</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400 group-hover:text-chartreuse"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- LIVE LEADERBOARD DASHBOARDS HYPERLINKS SECTION -->
+        <section class="space-y-4">
+            <div>
+                <h3 class="text-lg font-extrabold text-white flex items-center gap-2 uppercase tracking-wide">
+                    <i class="fa-solid fa-trophy text-chartreuse text-sm"></i> Official Event Leaderboards
+                </h3>
+                <p class="text-xs text-gray-400">View real-time standings, finisher logs, and cumulative progress streams</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Virtual Walking Leaderboard Card -->
+                <a href="https://shuttercraftid.github.io/leaderboard-vwalk/" target="_blank" rel="noopener noreferrer" class="action-card bg-navy-card border border-navy-border hover:border-smartblue p-5 rounded-xl block group transition-all">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-chartreuse/10 border border-chartreuse/30 text-chartreuse">WALK CATEGORY</span>
+                            <i class="fa-solid fa-arrow-right text-xs text-gray-400 group-hover:text-chartreuse transition-colors"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base group-hover:text-chartreuse transition-colors">Virtual Walking Leaderboard</h4>
+                            <p class="text-xs text-gray-400 mt-1">Check 21 KM Walk standings & progress logs</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Virtual Running Leaderboard Card -->
+                <a href="https://shuttercraftid.github.io/leaderboard-vrun/" target="_blank" rel="noopener noreferrer" class="action-card bg-navy-card border border-navy-border hover:border-smartblue p-5 rounded-xl block group transition-all">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-chartreuse/10 border border-chartreuse/30 text-chartreuse">RUN CATEGORY</span>
+                            <i class="fa-solid fa-arrow-right text-xs text-gray-400 group-hover:text-chartreuse transition-colors"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base group-hover:text-chartreuse transition-colors">Virtual Running Leaderboard</h4>
+                            <p class="text-xs text-gray-400 mt-1">Check 42 KM Marathon standings & progress logs</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Virtual Cycling Leaderboard Card -->
+                <a href="https://shuttercraftid.github.io/leaderboard-vride/" target="_blank" rel="noopener noreferrer" class="action-card bg-navy-card border border-navy-border hover:border-smartblue p-5 rounded-xl block group transition-all">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-chartreuse/10 border border-chartreuse/30 text-chartreuse">RIDE CATEGORY</span>
+                            <i class="fa-solid fa-arrow-right text-xs text-gray-400 group-hover:text-chartreuse transition-colors"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base group-hover:text-chartreuse transition-colors">Virtual Cycling Leaderboard</h4>
+                            <p class="text-xs text-gray-400 mt-1">Check 100 KM Ride standings & progress logs</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy-card border-t border-navy-border py-6 mt-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-400 gap-3">
+            <div class="flex items-center space-x-2">
+                <i class="fa-brands fa-strava text-smartblue text-sm"></i>
+                <span>Powered by Strava & Google</span>
+            </div>
+            <div>
+                © 2026 NTT Emerging Telco. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
